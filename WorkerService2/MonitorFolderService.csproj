@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-WorkerService2-2779E2D0-EC81-434F-AE4F-1DF916A3365D</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmailService\EmailService.csproj" />
+  </ItemGroup>
+</Project>
